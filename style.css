@@ -1,0 +1,19 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.flex{
+    display: flex;
+    margin: 5%;
+    
+}
+div {
+    width: 50%;
+}
+.orange{
+    color:orange;
+}
+div img{
+    width: 80%;
+}
