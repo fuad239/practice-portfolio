@@ -1,11 +1,14 @@
 body{
     font-family: 'Roboto Slab', serif;
+    background-image:url(img/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0px;
 }
 
 
 .flex{
     display: flex;
-    margin: 5%;
+    padding: 5%;
     
 }
 div {
@@ -16,4 +19,28 @@ div {
 }
 div img{
     width: 80%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px;
+    border-radius: 5px;
+}
+.second-sec{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+    .box{
+        box-shadow: 10px 10px 70px 2px gray;
+        width: 40%;
+        margin-left:5%;
+        margin-right:5%;
+        margin-bottom: 5%;
+        padding-left:40px;
+        padding-right: 10%;
+
 }
